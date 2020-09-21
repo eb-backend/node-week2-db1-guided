@@ -1,0 +1,16 @@
+SELECT "ShippedDate" FROM "Order"
+WHERE "Id" = 19570
+
+
+
+INSERT INTO "Category" ("CategoryName", "Description")
+values ("Frozen", "Ready-to-eat meals")
+
+
+UPDATE "Category"
+SET "Description" = 'UPDATED IT AGAIN'
+WHERE "Id" = 9;
+
+
+DELETE FROM "Category"
+WHERE "Id"=10
